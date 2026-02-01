@@ -68,7 +68,7 @@ The main branch contains stable production-ready code. Feature branches such as 
 - Python
 - VS Code
 
-## 🚀 Quick Start – Local Development
+## Quick Start – Local Development
 
 Follow the steps below to run the Serverless Task Automation Platform locally using Docker.
 
@@ -79,6 +79,8 @@ Ensure the following tools are installed:
 - Git
 - Docker Desktop
 - Web Browser
+
+---
 
 ### Step 1: Clone the Repository
 
