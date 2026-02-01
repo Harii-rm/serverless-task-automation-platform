@@ -83,7 +83,7 @@ Ensure the following tools are installed:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone <https://github.com/Harii-rm/serverless-task-automation-platform.git>
+git clone https://github.com/Harii-rm/serverless-task-automation-platform.git
 cd serverless-task-automation-platform
 ```
 
