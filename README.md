@@ -4,13 +4,9 @@
 
 The Serverless Task Automation Platform is a lightweight event-driven system that enables users to automate tasks using triggers such as time-based schedules and API events. The platform simplifies workflow automation by allowing users to create rule-based triggers and actions without managing complex infrastructure.
 
----
-
 ## Problem It Solves
 
 Many automation platforms are expensive, complex, or designed for enterprise use. Students and small developers need a simple, free, and easy-to-use automation solution to automate repetitive tasks, schedule workflows, and monitor execution status efficiently.
-
----
 
 ## Target Users (Personas)
 
@@ -26,13 +22,9 @@ Many automation platforms are expensive, complex, or designed for enterprise use
 - Requires monitoring and execution logs
 - Needs lightweight deployment
 
----
-
 ## Vision Statement
 
 To provide a simple, scalable, and free automation platform that enables users to build event-driven workflows efficiently with minimal setup and high reliability.
-
----
 
 ## Key Features / Goals
 
@@ -43,16 +35,12 @@ To provide a simple, scalable, and free automation platform that enables users t
 - Web-based user interface
 - Docker-based deployment
 
----
-
 ## Success Metrics
 
 - Successful creation and execution of automation rules
 - Task execution success rate above 90%
 - Stable system performance during testing
 - Positive user feedback on usability
-
----
 
 ## Assumptions & Constraints
 
@@ -68,14 +56,10 @@ To provide a simple, scalable, and free automation platform that enables users t
 - Limited development timeline
 - Academic project environment
 
----
-
 ## Branching Strategy
 
 This project follows GitHub Flow.  
 The main branch contains stable production-ready code. Feature branches such as `feature-rule-engine` are created for new functionality and merged into the main branch after testing.
-
----
 
 ## Local Development Tools
 
@@ -95,8 +79,6 @@ Ensure the following tools are installed:
 - Git
 - Docker Desktop
 - Web Browser
-
----
 
 ### Step 1: Clone the Repository
 
