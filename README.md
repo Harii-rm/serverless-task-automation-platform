@@ -4,6 +4,58 @@
 
 The Serverless Task Automation Platform is a lightweight event-driven system that enables users to automate tasks using triggers such as time-based schedules and API events. The platform simplifies workflow automation by allowing users to create rule-based triggers and actions without managing complex infrastructure.
 
+## Problem It Solves
+
+Many automation platforms are expensive, complex, or designed for enterprise use. Students and small developers need a simple, free, and easy-to-use automation solution to automate repetitive tasks, schedule workflows, and monitor execution status efficiently.
+
+## Target Users (Personas)
+
+### Student Developer
+
+- Needs simple automation for academic projects
+- Has limited cloud experience
+- Prefers free and open-source tools
+
+### Small Team Developer
+
+- Automates repetitive development tasks
+- Requires monitoring and execution logs
+- Needs lightweight deployment
+
+## Vision Statement
+
+To provide a simple, scalable, and free automation platform that enables users to build event-driven workflows efficiently with minimal setup and high reliability.
+
+## Key Features / Goals
+
+- Rule-based automation creation
+- Time-based and API-based triggers
+- Automatic task execution
+- Execution logging and monitoring
+- Web-based user interface
+- Docker-based deployment
+
+## Success Metrics
+
+- Successful creation and execution of automation rules
+- Task execution success rate above 90%
+- Stable system performance during testing
+- Positive user feedback on usability
+
+## Assumptions & Constraints
+
+### Assumptions
+
+- Users have access to the internet
+- Users understand basic automation concepts
+- Docker is available for local development
+
+### Constraints
+
+- Only free and open-source technologies are used
+- Limited development timeline
+- Academic project environment
+
 ## Branching Strategy
 
 This project follows GitHub Flow.  
@@ -31,7 +83,7 @@ Ensure the following tools are installed:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone <your-repository-url>
+git clone <https://github.com/Harii-rm/serverless-task-automation-platform.git>
 cd serverless-task-automation-platform
 ```
 
