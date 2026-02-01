@@ -64,3 +64,10 @@ Users have internet access
         Limited development timeline
 
         Student-level infrastructure
+
+## Local Development Tools
+
+- Git
+- Docker Desktop
+- Python
+- VS Code
