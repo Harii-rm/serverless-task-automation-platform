@@ -54,11 +54,13 @@ Success Metrics:
 
 Assumptions & Constraints:
 Assumptions:
-Users have internet access
+
+        Users have internet access
 
         Users understand basic automation concepts
 
-    Constraints:
+Constraints:
+
         Uses only free tools and frameworks
 
         Limited development timeline
