@@ -11,7 +11,7 @@ def log_execution(db, rule_id, status, message):
     # Update last_executed on the rule
     rule = db.query(models.AutomationRule).filter(models.AutomationRule.rule_id == rule_id).first()
     if rule:
-        rule.last_executed = datetime.datetime.utcnow()
+        rule.last_executed = datetime.datetime.now(datetime.timezone.utc)
         
     db.commit()
 
@@ -75,3 +75,13 @@ def start_scheduler():
     # Evaluate rules every 30 seconds for demonstration purposes
     scheduler.add_job(evaluate_rules, 'interval', seconds=30)
     scheduler.start()
+
+if __name__ == "__main__":
+    import time
+    print("Starting background scheduler...")
+    start_scheduler()
+    try:
+        while True:
+            time.sleep(1)
+    except (KeyboardInterrupt, SystemExit):
+        pass

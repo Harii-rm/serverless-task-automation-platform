@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import database
+import seed
 from routers import auth, rules
 from scheduler import start_scheduler
 
@@ -23,6 +24,7 @@ app.include_router(rules.router, prefix="/api", tags=["Automation Rules"])
 
 @app.on_event("startup")
 def on_startup():
+    seed.seed_db()
     start_scheduler()
 
 @app.get("/")

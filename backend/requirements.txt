@@ -2,5 +2,5 @@ fastapi
 uvicorn
 sqlalchemy
 apscheduler
-pydantic
+pydantic[email]
 python-multipart
